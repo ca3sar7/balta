@@ -1,0 +1,85 @@
+[2026-09-23 23:19:04] IP: 127.0.0.1 | HTTP: 0 | ExternalID: test_session_456_5000_1
+Payload: {"amount":5000,"external_id":"test_session_456_5000_1","buyer":{"name":"Doador","email":"doacao+test_session_456_5000_1@abrigobaltazar.com.br"}}
+Response: SEM_RESPOSTA
+cURL Error: getaddrinfo() thread failed to start
+----------------------------------------
+[2026-09-23 23:20:52] IP: 127.0.0.1 | HTTP: 0 | ExternalID: test_session_456_5000_1
+Payload: {"amount":5000,"external_id":"test_session_456_5000_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"32024955851"}}
+Response: SEM_RESPOSTA
+cURL Error: getaddrinfo() thread failed to start
+----------------------------------------
+[2026-09-23 23:32:02] IP: 127.0.0.1 | HTTP: 403 | ExternalID: audit_sess_idempotent_test_2500_1
+Payload: {"amount":2500,"external_id":"audit_sess_idempotent_test_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:02] IP: 127.0.0.1 | HTTP: 403 | ExternalID: audit_sess_idempotent_test_2500_1
+Payload: {"amount":2500,"external_id":"audit_sess_idempotent_test_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:02] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_1_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_1_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:02] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_2_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_2_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:03] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_3_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_3_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:03] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_4_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_4_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:03] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_5_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_5_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:03] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_6_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_6_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:03] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_7_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_7_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:03] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_8_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_8_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:04] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_9_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_9_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:04] IP: 192.168.1.99 | HTTP: 403 | ExternalID: sess_rate_10_2500_1
+Payload: {"amount":2500,"external_id":"sess_rate_10_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-23 23:32:04] IP: 127.0.0.1 | HTTP: 403 | ExternalID: real_test_1790199124_2500_1
+Payload: {"amount":2500,"external_id":"real_test_1790199124_2500_1","buyer":{"name":"Robson Jorge da Silva Marforri","email":"raizo.marforri@gmail.com.com","phone":"5511978826618","document":"320.***.***-51"}}
+Response: {"message":"Invalid key=value pair (missing equal-sign) in Authorization header (hashed with SHA-256 and encoded with Base64): 'b3dwc59OXayX0fnwY3O0296EwNB97VF+iaS9PdjD5tY='."}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-24 01:09:30] IP: ::1 | HTTP: 400 | ExternalID: utm_test_sess_650_1
+Payload: {"payment_method":"pix","amount":650,"external_id":"utm_test_sess_650_1","buyer":{"name":"Maximiliano Batista da Silva Teixeira","email":"mbatistadasilva093@gmail.com","phone":"5551986487027","document":"028.***.***-60"},"tracking":{"utm_source":"facebook","utm_medium":"cpc","utm_campaign":"camp_baltazar_01","utm_content":"video_01","src":"fb_ad_1","xcod":"xyz123"},"metadata":{"tracking":{"utm_source":"facebook","utm_medium":"cpc","utm_campaign":"camp_baltazar_01","utm_content":"video_01","src":"fb_ad_1","xcod":"xyz123"}}}
+Response: {"error":{"message":"Invalid request body.","detail":{"tracking":["O campo 'ref' é obrigatório.","O campo 'sck' é obrigatório.","O campo 'utm_id' é obrigatório.","O campo 'utm_term' é obrigatório."]}}}
+cURL Error: NENHUM
+----------------------------------------
+[2026-09-24 01:09:40] IP: ::1 | HTTP: 400 | ExternalID: utm_test_sess_01_650_1
+Payload: {"payment_method":"pix","amount":650,"external_id":"utm_test_sess_01_650_1","buyer":{"name":"Ryan Cristhian de Sousa Silva","email":"ryancristhian577@gmail.com","phone":"5585997105246","document":"633.***.***-00"},"tracking":{"utm_source":"facebook","utm_medium":"cpc"},"metadata":{"tracking":{"utm_source":"facebook","utm_medium":"cpc"}}}
+Response: {"error":{"message":"Invalid request body.","detail":{"tracking":["O campo 'ref' é obrigatório.","O campo 'src' é obrigatório.","O campo 'sck' é obrigatório.","O campo 'utm_campaign' é obrigatório.","O campo 'utm_id' é obrigatório.","O campo 'utm_term' é obrigatório.","O campo 'utm_content' é obrigatório."]}}}
+cURL Error: NENHUM
+----------------------------------------
